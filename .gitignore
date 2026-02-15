@@ -8,6 +8,7 @@ package-lock.json
 *.pdf
 receipt.pdf
 Npay_카드영수증_*.pdf
+extracted_images/
 
 # OS files
 Thumbs.db

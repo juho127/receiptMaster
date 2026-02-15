@@ -20,6 +20,26 @@
 - `transactions.json`: 결제 데이터 저장소 (샘플 데이터 포함)
 - `.gitignore`: 개인정보 및 불필요한 파일 제외 설정
 - `README.md`: 프로젝트 안내 및 가이드
+- `ocr_extract.py`: PDF를 이미지로 변환하고 OCR을 수행하는 자동화 스크립트 (추가됨)
+
+## 자동화 스크립트 사용법 (ocr_extract.py)
+
+AI의 도움 없이 로컬에서 PDF를 이미지로 변환하거나 텍스트를 추출하고 싶을 때 사용합니다.
+
+### 1. 환경 설정
+- **Python 라이브러리 설치**:
+  ```bash
+  pip install pdf2image pytesseract Pillow
+  ```
+- **시스템 의존성 설치**:
+  - `Poppler`: PDF를 이미지로 변환하는 데 필요합니다.
+  - `Tesseract OCR`: 이미지에서 텍스트를 인식하는 데 필요합니다.
+
+### 2. 실행 방법
+```bash
+python ocr_extract.py your_receipt.pdf
+```
+실행 결과로 `extracted_images/` 폴더에 각 페이지가 PNG 파일로 저장됩니다.
 
 ## 데이터 관리 가이드
 
