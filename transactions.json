@@ -1,0 +1,25 @@
+[
+    {
+        "date": "202X-MM-DD HH:mm:ss",
+        "merchant": "Example Merchant A",
+        "item": "Example Item Name / Product Details",
+        "amount": 10000,
+        "card": {
+            "name": "Card Issuer",
+            "approval_number": "00000000"
+        },
+        "status": "승인"
+    },
+    {
+        "date": "202X-MM-DD HH:mm:ss",
+        "merchant": "Example Merchant B",
+        "item": "Example Item Name (Cancelled)",
+        "amount": 5000,
+        "card": {
+            "name": "Card Issuer",
+            "approval_number": "11111111"
+        },
+        "status": "취소",
+        "cancel_date": "202X-MM-DD HH:mm:ss"
+    }
+]

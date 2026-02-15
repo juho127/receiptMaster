@@ -1,0 +1,14 @@
+# Temporary scripts and node modules
+extract_pdf.py
+extract_pdf.js
+node_modules/
+package-lock.json
+
+# Sensitive files (All PDF files ignored by default)
+*.pdf
+receipt.pdf
+Npay_카드영수증_*.pdf
+
+# OS files
+Thumbs.db
+desktop.ini
